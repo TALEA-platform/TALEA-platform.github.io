@@ -1391,6 +1391,7 @@ section,
   font-size: 16px;
   position: relative;
   padding-bottom: 10px;
+  color: black;
 }
 
 .team .member h4::after {
