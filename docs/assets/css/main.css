@@ -1667,3 +1667,28 @@ section,
   transform: rotate(90deg);
   color: var(--accent-color);
 }
+
+.description-title {
+  color: #21A84A;
+}
+
+
+.footer-right {
+  min-height: 100%;
+}
+
+.footer-eui-logo img {
+  display: block;
+  margin-left: auto;
+}
+
+@media (max-width: 991.98px) {
+  .footer-right {
+    text-align: left !important;
+  }
+
+  .footer-eui-logo img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
